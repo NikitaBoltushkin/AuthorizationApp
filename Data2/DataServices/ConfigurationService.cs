@@ -2,7 +2,7 @@
 using System.Data.Common;
 using System.Data.SqlClient;
 
-namespace Services
+namespace Data
 {
     public class ConfigurationService
     {
@@ -20,6 +20,7 @@ namespace Services
                 var configurationBuilder = new ConfigurationBuilder();
                 Configuration = configurationBuilder.AddJsonFile("appSettings.json").Build();
             }
+            
         }
     }
 }

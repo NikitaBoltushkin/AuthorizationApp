@@ -12,7 +12,9 @@ namespace AuthorizationApp
            var fullName = " ";
            var email = " ";
            var path = " ";
-            
+
+            Data.ConfigurationService.Init();
+
            var hashPassword = EncryiptionService.GetHashString("password");
             /*Пользователь может сохранить информацию о себе: полное имя, почту (проверять на корректность), 
                 путь на аватарку с раширениями png / jpg / jpeg.*/
