@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{34882E67-FA97-4495-BF1C-7C2D067004BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\MelomanOnlineShop\Data\Data.csproj", "{C0D1DA37-75B1-427A-A5AA-FBB75DD976CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data2\Data.csproj", "{FDCE3CAE-9BC5-4E87-92FC-F1790EC2742A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{34882E67-FA97-4495-BF1C-7C2D067004BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34882E67-FA97-4495-BF1C-7C2D067004BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34882E67-FA97-4495-BF1C-7C2D067004BF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0D1DA37-75B1-427A-A5AA-FBB75DD976CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C0D1DA37-75B1-427A-A5AA-FBB75DD976CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0D1DA37-75B1-427A-A5AA-FBB75DD976CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C0D1DA37-75B1-427A-A5AA-FBB75DD976CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDCE3CAE-9BC5-4E87-92FC-F1790EC2742A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCE3CAE-9BC5-4E87-92FC-F1790EC2742A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCE3CAE-9BC5-4E87-92FC-F1790EC2742A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCE3CAE-9BC5-4E87-92FC-F1790EC2742A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
