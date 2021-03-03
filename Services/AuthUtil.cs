@@ -26,6 +26,7 @@ namespace Services
         {
             var userDataAccess = new UserDataAccess();
             var userList = userDataAccess.Select();
+            var profileDataAccess = new ProfileDataAccess();
             foreach (var element in userList)
             {
                 if (element.Login == login)
